@@ -83,24 +83,6 @@ By aligning with the **3Rs principles (Replacement, Reduction, Refinement)**, LE
 
 ---
 
-## Repository Structure  
-
-LECI-Lab-Environmental-Comfort-Index/
-│
-├── data/
-│ ├── zebrafish_environment.csv # Raw dataset
-│ └── zebrafish_environment_encoded.csv # Encoded dataset
-│
-├── models/
-│ ├── LECI_gradient_boosting_model.pkl # Trained model
-│ └── LECI_preprocessing_pipeline.pkl # Preprocessing pipeline
-│
-├── LECI_pipeline_demo.ipynb # Workflow with predictions & visualizations
-│  
-└── README.md # Project documentation
-
----
-
 ## Welfare & 3Rs Relevance  
 
 - **Refinement** – actionable insights to improve animal housing conditions, reducing stress.  
