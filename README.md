@@ -103,5 +103,5 @@ This project builds on the [**Lab Animal Growth Prediction**](https://github.com
 
 ## Notes  
 
-For the complete workflow, predictions, and visualizations, see the Jupyter notebook in the `notebooks/` directory. 
+For the complete workflow, predictions, and visualizations, see the [Jupyter notebook](https://github.com/Ibrahim-El-Khouli/LECI-Lab-Environmental-Comfort-Index/blob/main/LECI-lab-environmental-comfort-index.ipynb).
 
