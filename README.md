@@ -530,11 +530,43 @@ The deployment function consolidates preprocessing, prediction, and interpretabi
 
 ---
 
-## Welfare & 3Rs Relevance  
+## Phase 7 — Conclusion, Ethics, and Future Work
 
-- **Refinement** – actionable insights to improve animal housing conditions, reducing stress.  
-- **Reduction** – stabilized environments → less variability → fewer animals needed.  
-- **Replacement (indirect)** – synthetic datasets reduce pilot testing needs.  
+### Summary of Findings
+
+The Linear and Ridge regression models demonstrated limited capacity to capture the complex relationships underlying zebrafish welfare, explaining approximately half of the observed variation. In contrast, tree-based ensemble approaches—particularly **Gradient Boosting**—achieved superior predictive accuracy (≈95%), effectively modeling nonlinear environmental interactions and improving generalization.
+Feature importance analyses identified **Nitrogen Load**, **Temperature**, **pH**, and **Density** as the dominant determinants of comfort, corroborating established veterinary and aquatic biology evidence. These findings highlight that water chemistry and stocking density remain critical for maintaining zebrafish well-being in research environments.
+Interpretability methods, including **Partial Dependence Plots (PDPs)** and **SHAP** analyses, provided transparent insights into model behavior, enhancing scientific credibility and supporting biologically grounded interpretation.
+
+### Veterinary Significance
+
+The **Post-Lab Environmental Comfort Index (LECI)** provides a data-driven, reproducible, and interpretable framework to quantify and monitor zebrafish welfare.
+By integrating artificial intelligence with veterinary science, LECI enables:
+
+* Early detection of suboptimal tank conditions before physiological or behavioral stress occurs.
+* Refinement of husbandry protocols in alignment with evidence-based welfare principles.
+* Enhanced decision-making for veterinarians and facility managers in aquatic research programs.
+
+### Ethical and Regulatory Framework
+
+LECI aligns with the **3Rs principles**—**Replacement, Reduction, and Refinement**—by emphasizing welfare optimization through predictive analytics rather than additional animal use.
+The framework is conceptually designed to operate within the ethical oversight systems of institutional programs, including:
+
+* **IACUC** (Institutional Animal Care and Use Committee) guidelines for protocol refinement and humane endpoint assessment.
+* **AAALAC International** accreditation standards for continuous quality improvement and welfare monitoring.
+* **USDA Animal Welfare Regulations** and **NIH Office of Laboratory Animal Welfare (OLAW)** expectations regarding environmental enrichment and comfort assessment.
+
+By supporting data-informed husbandry refinement, LECI contributes to reducing animal stress, enhancing reproducibility, and promoting the ethical advancement of biomedical research.
+
+### Future Directions
+
+* **Temporal Dynamics:** Incorporate time-series data reflecting environmental fluctuations and adaptive responses to better simulate real-world tank conditions.
+* **Species Generalization:** Extend the framework to additional aquatic research species (e.g., medaka, guppy, goldfish) for comparative comfort modeling.
+* **Automated Integration:** Embed LECI within intelligent vivarium systems for continuous, AI-assisted welfare monitoring and environmental optimization.
+* **Cross-Facility Validation:** Conduct benchmarking across multiple research facilities to validate robustness under diverse environmental and operational conditions.
+* **Ethical Impact Assessment:** Collaborate with institutional ethics committees to evaluate how predictive comfort modeling contributes to measurable welfare outcomes.
+
+In conclusion, the **Post-Lab Environmental Comfort Index (LECI)** represents a foundational step toward **AI-driven ethical welfare analytics** in aquatic biomedical research—merging computational precision with regulatory compliance and veterinary ethics to advance the humane care and scientific integrity of laboratory animals.
 
 ---
 
